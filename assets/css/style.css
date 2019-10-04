@@ -1,15 +1,20 @@
 .content-box {
     background:#f8f8ff;
     width: 800px;
-    height: 325px;
     padding: 50px;
     margin: 20px auto;
 }
 
 header {
     border-bottom: 2px solid #f8f8ff;
-    margin-bottom: 40px;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+#headshot {
+    margin: 20px auto;
+    float: left;
+    padding: 9px 20px 9px 0;
 }
 
 body {
@@ -67,7 +72,7 @@ nav a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  margin-bottom: 10px;
+  margin-bottom: 80px;
   margin-right: 40px;
 }
 
