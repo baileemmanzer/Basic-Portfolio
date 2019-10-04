@@ -23,6 +23,46 @@ body {
     font-size: 14px;
     border: 1px #f8f8ff;
     line-height: 24px;
+    color: #ff69b4;
+}
+
+input [type=text] {
+    width: 100%;
+    padding:12px 20px;
+    margin: 12px auto;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input [type=email] {
+    width: 100%;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 250px;
+    width: 100%;
+    padding: 10px auto;
+    font-size: 13px;
+}
+
+.button { 
+    background-color: #f8f8ff
+    border: none;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 13px;
+    margin: 20px 0 0 0;
 }
 
 h1{
@@ -44,6 +84,7 @@ h1 {
 h2{
     font-size: 22px;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
+    margin: 20px auto;
 }
 
 nav {
