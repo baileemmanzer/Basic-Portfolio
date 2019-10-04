@@ -33,8 +33,7 @@ h1 {
     width: 830px;
     padding: 50px;
     border: white 2px solid;
-    position: absolute;
-    z-index: 1;
+    margin: 0 auto;
 }
 
 h2{
