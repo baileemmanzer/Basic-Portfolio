@@ -7,9 +7,9 @@ header {
 body {
     background-image: url(../images/dot-grid.png);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     border: 1px white;
-    line-height: 28px;
+    line-height: 24px;
 }
 
 h1{
@@ -30,10 +30,10 @@ h1 {
 
 .content-box {
     background: white;
-    width: 830px;
+    width: 800px;
+    height: 325px;
     padding: 50px;
-    border: white 2px solid;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 h2{
