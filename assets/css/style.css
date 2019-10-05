@@ -54,7 +54,7 @@ textarea {
 }
 
 .button { 
-    background-color: #f8f8ff
+    background-color: black;
     border: none;
     text-align: center;
     padding: 10px 15px;
@@ -63,10 +63,10 @@ textarea {
     font-size: 13px;
     border-radius: 13px;
     margin: 20px 0 0 0;
+    color: white;
 }
 
 h1{
-    font-size: 22px;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
 
@@ -99,39 +99,66 @@ nav {
     padding: 25px 0;
 }
 
-/* Add a pink background color to the top navigation */
 nav {
     background-color: #ff69b4;
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 nav a {
   float: right;
   color: #f8f8ff;
+  background-color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
   margin-bottom: 80px;
   margin-right: 40px;
 }
 
-/* Change the color of links on hover */
 nav a:hover {
-  background-color: #ddd;
+  background-color: black;
   color: #f8f8ff;
 }
 
-/* Add a color to the active/current link */
 nav a.active {
   background-color: #4CAF50;
   color:#f8f8ff;
 }
 
-/* Right-aligned section inside the top navigation */
 nav-right {
   float: right;
+}
+
+.row {
+    display: flex;
+}
+
+.row2 {
+    display: flex;
+}
+
+.column {
+    position: relative;
+    flex: 33%;
+    padding: 10px;
+    margin: 20px;
+}
+
+.photos { 
+    vertical-align: middle;
+}
+
+#portfolio {
+    box-sizing: border-box;
+    min-height: 900px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
 
 footer {
