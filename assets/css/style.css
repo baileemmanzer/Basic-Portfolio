@@ -120,11 +120,6 @@ nav a:hover {
   color: #f8f8ff;
 }
 
-nav a.active {
-  background-color: #4CAF50;
-  color:#f8f8ff;
-}
-
 nav-right {
   float: right;
 }
